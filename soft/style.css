@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    margin-bottom: 10px;
+}
+
+#todo-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#todo-form {
+    margin-top: 30px;
+}
+
+#new-todo {
+    padding: 10px;
+    width: 100%;
+}
+
+#todo-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
